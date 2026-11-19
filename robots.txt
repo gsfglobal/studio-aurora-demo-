@@ -1,0 +1,8 @@
+# Sito dimostrativo: indicizzazione disattivata.
+# Per il sito reale sostituire con:
+#   User-agent: *
+#   Allow: /
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.studiodentisticoaurora-demo.it/sitemap.xml

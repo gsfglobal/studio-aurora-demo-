@@ -1,0 +1,28 @@
+2:"$Sreact.fragment"
+3:"/studio-aurora-demo-/_next/static/chunks/3qfy96eoyh-ek.js"
+4:"/studio-aurora-demo-/_next/static/chunks/2u9bgn0_xl9x4.js"
+5:I[39756,["$3","$4"],"default"]
+6:I[37457,["$3","$4"],"default"]
+b:I[22016,["$3","$4"],""]
+c:I[5014,["$3","$4"],"default"]
+d:I[97367,["$3","$4"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[97367,["$3","$4"],"$11"]
+13:"MetadataBoundary"
+14:I[97367,["$3","$4"],"$13"]
+15:I[27201,["$3","$4"],"IconMark"]
+8:X
+8:C
+9:X
+a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","section",null,{"className":"bg-ivory","children":["$","div",null,{"className":"mx-auto w-full max-w-7xl px-5 sm:px-8 flex min-h-[60vh] flex-col items-start justify-center py-24","children":[["$","p",null,{"className":"eyebrow","children":"Errore 404"}],["$","h1",null,{"className":"mt-6 text-5xl text-night sm:text-6xl","children":"Pagina non trovata"}],["$","p",null,{"className":"mt-5 max-w-md text-lg text-muted","children":"La pagina che cerchi non esiste o è stata spostata."}],["$","$Lb",null,{"href":"/","className":"group inline-flex items-center justify-center gap-2.5 rounded-full px-7 py-3.5 text-[0.95rem] font-medium transition-all duration-300 ease-(--ease-soft) hover:-translate-y-0.5 bg-night text-white hover:bg-night-soft hover:shadow-xl hover:shadow-night/15 mt-10","children":["Torna alla home",["$","$Lc",null,{"icon":{"name":"arrow-right","size":24,"node":[["path",{"d":"M5 12h14","key":"1ays0h"}],["path",{"d":"m12 5 7 7-7 7","key":"xquz4c"}]]},"className":"size-4 transition-transform duration-300 group-hover:translate-x-1","aria-hidden":true}]]}]]}]}],null,["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$9"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0f1d31"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Studio Dentistico Aurora | Dentista a Napoli"}],["$","meta","1",{"name":"description","content":"Studio Dentistico Aurora a Napoli: implantologia, ortodonzia, igiene, estetica dentale, endodonzia e protesi. Un approccio attento, tecnologie digitali e percorsi di cura spiegati con chiarezza."}],["$","meta","2",{"name":"application-name","content":"Studio Dentistico Aurora"}],["$","meta","3",{"name":"keywords","content":"dentista Napoli,studio dentistico Napoli,implantologia,ortodonzia,igiene dentale"}],["$","meta","4",{"name":"robots","content":"noindex, nofollow"}],["$","meta","5",{"property":"og:title","content":"Studio Dentistico Aurora | Dentista a Napoli"}],["$","meta","6",{"property":"og:description","content":"Studio Dentistico Aurora a Napoli: implantologia, ortodonzia, igiene, estetica dentale, endodonzia e protesi. Un approccio attento, tecnologie digitali e percorsi di cura spiegati con chiarezza."}],["$","meta","7",{"property":"og:site_name","content":"Studio Dentistico Aurora"}],["$","meta","8",{"property":"og:locale","content":"it_IT"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Studio Dentistico Aurora | Dentista a Napoli"}],["$","meta","12",{"name":"twitter:description","content":"Studio Dentistico Aurora a Napoli: implantologia, ortodonzia, igiene, estetica dentale, endodonzia e protesi. Un approccio attento, tecnologie digitali e percorsi di cura spiegati con chiarezza."}],["$","link","13",{"rel":"icon","href":"/studio-aurora-demo-/icon.svg?icon.01zj12r-y6byv.svg","sizes":"any","type":"image/svg+xml"}],["$","$L15","14",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@16","v":null,"s":"$9"}},"a":"$@17","u":"$@18","b":"VOxi3clCsBuTMmRsy4n4m"}
+f:null
+18:true
+9:300
+9:C
+17:0
+7:"$undefined"
+16:"$undefined"
+10:"$undefined"
