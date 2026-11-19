@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Studio Dentistico Aurora — Design system
+   Palette: bianco, avorio, blu notte, verde salvia
+   ============================================================ */
+
+@theme {
+  --color-white: #ffffff;
+  --color-ivory: #f8f5ef;
+  --color-ivory-deep: #efe9de;
+  --color-line: #e3ddd1;
+
+  --color-night: #0f1d31;
+  --color-night-soft: #1a2c46;
+  --color-night-muted: #3a4a63;
+
+  --color-ink: #17202e;
+  --color-muted: #5a6577;
+
+  --color-sage: #8fa68e;
+  --color-sage-deep: #56705a;
+  --color-sage-light: #dde6da;
+  --color-sage-mist: #eef2ec;
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-slow-zoom: slow-zoom 18s var(--ease-soft) forwards;
+  --animate-fade-up: fade-up 1s var(--ease-soft) both;
+
+  @keyframes slow-zoom {
+    from { transform: scale(1.08); }
+    to { transform: scale(1); }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background: var(--color-white);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  ::selection {
+    background: var(--color-sage-light);
+    color: var(--color-night);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-sage-deep);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  /* Rivelazione allo scroll (vedi components/Reveal.tsx) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.9s var(--ease-soft),
+      transform 0.9s var(--ease-soft);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Sottolineatura animata per link testuali */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.45s var(--ease-soft);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-sage-deep);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 2rem;
+    height: 1px;
+    background: currentColor;
+  }
+
+  /* FAQ: animazione dell'icona */
+  details[open] .faq-icon { transform: rotate(45deg); }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
